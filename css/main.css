@@ -1,0 +1,177 @@
+/*****BASE STYLES*****/
+#page-1{
+  color: #2b2b2b;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+#page-1 #about, #contact{
+  height: 600px;
+}
+#page-2{
+  background-color: #ebebeb;
+}
+/*****GRID*****/
+.full-width{
+  margin: 0 auto;
+  width: 1200px;
+}
+.half-width{
+  float: left;
+  width: 600px;
+}
+.third-width{
+  float: left;
+  width: 400px;
+}
+/*****HEADER*****/
+#page-1 header{
+  background: url('../img/hero.png');
+  background-size: cover;
+  height: 800px;
+}
+header h1{
+  color: #bbc085;
+  font-family: 'Lora', serif;
+  font-size: 30px;
+  padding: 65px 0 65px 25px;
+}
+nav{
+  float: right;
+  padding: 46px 0;
+}
+nav ul li{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+nav ul li a{
+  font-size: 18px;
+  color: #828282;
+  padding-left: 80px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+header h2 {
+  clear: both;
+  color: #9b9b9b;
+  font-family: 'Lora', serif;
+  font-size: 72px;
+  line-height: 80px;
+  width: 1000px;
+  padding: 20px 0 20px 25px;
+}
+header h2 span{
+  color: #2b2b2b;
+}
+/******ABOUT*****/
+#about .full-width{
+  padding: 80px 0;
+}
+#about h2{
+  font-family: 'Lora', serif;
+  font-size: 36px;
+  padding-left: 50px;
+}
+#about p{
+  color: #7f7f7f;
+  font-size: 21px;
+  line-height: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+/******WORK******moved to page 2*/
+#page-2 #work #samples{
+  background-color: #ebebeb;
+  text-align: center;
+}
+#page-2 #work .full-width{
+  padding: 115px 0;
+}
+#page-2 #work img{
+  color: #bbc085;
+  padding-left: 150px;
+  padding-bottom: 30px;
+}
+#page-2 #work h3{
+  font-size: 24px;
+  height: 50px;
+  line-height: 32px;
+  margin: 0 auto;
+  text-align: center;
+  width: 240px;
+}
+#page-2 #work p{
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 10px 50px;
+}
+/*****CONTACT*****/
+#contact{
+  background-color: #ebebeb;
+}
+#contact .full-width{
+  padding: 110px 0;
+}
+#contact img#contact-img{
+  border: 12px solid #ffffff;
+  margin-left: 25px;
+}
+#contact h2, #contact #email-header, #contact #socialmedia-header,
+  #contact ul{
+    padding-left: 115px;
+  }
+#contact #envelope{
+  padding: 0 10px 0 115px;
+}
+#contact h2{
+  font-family: 'Lora', serif;
+  font-size: 36px;
+  line-height: 44px;
+}
+#contact #email-header{
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  margin: -30px 0 0 0;
+  text-align: left;
+}
+#contact #socialmedia-header{
+  font-size: 29px;
+  font-weight: bold;
+  line-height: 44px;
+  margin: 40px 0 0 0;
+}
+#contact a {
+  color: #c49075;
+  font-size: 28px;
+  font-weight: bold;
+  text-decoration: none;
+}
+#contact ul{
+  list-style: none;
+}
+#contact ul li{
+  display: inline-block;
+}
+#contact ul img{
+  font-size: 32px;
+  padding-right: 48px;
+}
+/*****SAMPLES******page 2 of the site */
+#page-2 header{
+  background-color: #ebebeb;
+  height: 200px;
+}
+#page-2 nav{
+  float: right;
+  padding-right: 25px;
+  padding-top: 65px;
+}
+#page-2 #samples h2{
+  clear: both;
+  color: #bbc085;
+  font-size: 26px;
+  height: 100px;
+  line-height: 32px;
+  text-align: center;
+}
